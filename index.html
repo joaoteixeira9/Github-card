@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Card</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card text-center pt-5 pb-5" id="espaco-botao">
+            <input type="text" class="form-control" id="usuario">
+            <button type="button" class="btn btn-primary btn-lg m-3" id="botao-carregar-dados">Carregar informações do usuário</button>
+        </div>
+        <div class="card" id="espaco-cartao">
+            <img class="image-card card-img-top" src="assets/img/Teclado.jpg">
+            <img class="avatar ms-auto me-auto" src="assets/img/paulo.jfif" id="foto">
+            <h1 class="name" id="nome">Paulo Henrique</h1>
+            <p class="bio" id="resumo">
+                <strong class="email" id="email">joao.ptsilva9@senacsp.edu.br</strong>
+                <span>💻 Estudante de TI | Senac</span><br>
+                <span>🔧 Apaixonado por tecnologia, inovação e soluções criativas.</span><br>
+                <span>🔍 Sempre em busca de novos desafios e aprendizado contínuo.</span><br>
+                <span>🚀 Focado em desenvolvimento de software, redes e segurança digital.</span><br>
+                <span>🎯 Objetivo: Evoluir na área de TI e contribuir com soluções eficientes para o futuro digital.</span><br>
+            </p>              
+            <div class="rede-sociais mb-3 mt-3">
+                <a href="https://x.com/?mx=2" class="btn" target="_blank" id="twitter">
+                    <i class="bi bi-twitter-x"></i>
+                </a>
+                <a href="https://github.com/Paulo23k" class="btn" target="_blank" id="github">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/paulohenrique23k/" class="btn" target="_blank" id="blog">
+                    <i class="bi bi-substack"></i>
+                </a>
+            </div>
+            <button type="button" class="btn btn-primary mb3" id="botao-outro-usuario"><i class="bi bi-search me-2"></i>Pesquisar outro usuario</button>
+        </div>
+    </div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
